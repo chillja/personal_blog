@@ -1,0 +1,9 @@
+[submodule "themes/styx-theme-showcase"]
+	path = themes/styx-theme-showcase
+	url = https://github.com/styx-static/styx-theme-showcase.git
+[submodule "themes/styx-theme-generic-templates"]
+	path = themes/styx-theme-generic-templates
+	url = https://github.com/styx-static/styx-theme-generic-templates.git
+[submodule "themes/styx-theme-orbit"]
+	path = themes/styx-theme-orbit
+	url = https://github.com/styx-static/styx-theme-orbit.git
