@@ -1,3 +1,3 @@
 ## Test
 
-This is the inital test for my personal website. See [here](https://www.github.com/chillja/chillja.github.io).
+This is the inital test for my personal blog. See [here](https://www.github.com/chillja/personal_blog).
