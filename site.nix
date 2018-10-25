@@ -27,10 +27,9 @@ rec {
      items at the end of the list have higher priority
   */
   themes = [
-/*    ./themes/styx-theme-orbit*/
-    ./themes/styx-theme-showcase
-    ./themes/styx-theme-generic-templates
-    ./themes/chillja
+    styx-themes.generic-templates
+    styx-themes.hyde
+/*    ./themes/chillja*/
   ];
 
   /* Loading the themes data
