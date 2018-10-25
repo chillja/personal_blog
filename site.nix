@@ -66,11 +66,10 @@ rec {
   pages = rec {
 
     init = {
-      path     = "/data/index.html";
+      path     = "/index.html";
       template = templates.page.full;
-      layout   = templates.layout;
-      title    = "test site";
-    } // data.init; 
+      title    = "Ilja's Blog";
+    } // data.init;
 
   };
 
@@ -84,7 +83,10 @@ rec {
 
   /* Converting the pages attribute set to a list
   */
-  pageList = lib.pagesToList { inherit pages; };
+  pageList = lib.pagesToList {
+      inherit pages;
+      default.layout = templates.layout;
+  };
 
   /* Generating the site
   */
